@@ -75,6 +75,10 @@ h1.title-green{
 
 .menu ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 15px 10px;
+    gap: 10px;
 }
 
 .menu a {
