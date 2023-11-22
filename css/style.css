@@ -6,8 +6,12 @@
 }
 
 /*Generics*/
+html{
+    overflow-y: hidden;
+}
+
 body{
-    font-family: sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 img{
@@ -24,7 +28,6 @@ img{
 /*Utils*/
 
 .container{
-    border: 5px dashed black;
     max-width: 900px;
     margin: 0 auto;
     position: absolute;
@@ -34,7 +37,6 @@ img{
 }
 
 .full-page{
-    background-color: red;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -46,4 +48,45 @@ img{
     font-size: 75px;
     color: yellow;
     text-align: center;
+}
+
+#blue-shoes{
+    background-color: red;
+}
+
+#white-shoes{
+    background-color: green;
+}
+
+#green-shoes{
+    background-color: yellow;
+}
+
+h1.title-green{
+    color: green;
+}
+
+/*MENU*/
+.menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+    line-height: 40px;
 }
